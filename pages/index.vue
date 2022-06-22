@@ -6,7 +6,7 @@
         <VuetifyLogo />
       </v-card>
       <v-card>
-        <v-card-title class="headline">
+        <v-card-title class="headline tw-text-3xl tw-font-bold tw-underline">
           Welcome to the Vuetify + Nuxt.js template
         </v-card-title>
         <v-card-text>
