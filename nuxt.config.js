@@ -85,4 +85,8 @@ export default {
       },
     },
   },
+
+  devServer: {
+    proxy: 'https://zenquotes.io/api/random'
+  }
 }

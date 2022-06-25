@@ -47,7 +47,7 @@ export default {
 
     methods: {
       async fetchQuote () {
-        await this.$axios.get('api/')
+        await this.$axios.get('/api/')
           .then(response => {
 
             this.quote = '"' + response.data[0].q + '"'
