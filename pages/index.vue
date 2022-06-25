@@ -47,11 +47,11 @@ export default {
 
     methods: {
       async fetchQuote () {
-        await this.$axios.get('/api/')
+        await this.$axios.get('https://api.quotable.io/random')
           .then(response => {
-
-            this.quote = '"' + response.data[0].q + '"'
-            this.author = response.data[0].a
+            // console.log(response)
+            this.quote = '"' + response.data.content + '"'
+            this.author = response.data.author
           })
           .finally(() => {
             if (this.btnLoading) {
