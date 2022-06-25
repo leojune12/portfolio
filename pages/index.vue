@@ -1,10 +1,10 @@
 <template>
     <div class="tw-flex tw-justify-center tw-items-center tw-h-full">
         <div>
-            <div class="tw-text-5xl tw-font-black tw-text-center tw-mb-4">
+            <div class="tw-text-4xl md:tw-text-5xl tw-font-black tw-text-center tw-mb-4">
                 {{ quote }}
             </div>
-            <div class="tw-text-3xl tw-text-center tw-mb-4 tw-italic tw-font-serif">
+            <div class="tw-text-2xl md:tw-text-3xl tw-text-center tw-mb-4 tw-italic tw-font-serif">
                 {{ author }}
             </div>
             <div class="tw-flex tw-justify-center">
