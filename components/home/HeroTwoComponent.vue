@@ -3,7 +3,7 @@
 <template>
     <div class="bg-gray-900">
         <div class="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
-            <div class="mr-auto place-self-center lg:col-span-7">
+            <div class="mr-auto place-self-center lg:col-span-7 order-2 lg:order-1">
                 <h1 class="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl text-white">We invest in the world’s potential</h1>
                 <p class="max-w-2xl mb-6 font-light lg:mb-8 md:text-lg lg:text-xl text-gray-400">Here at Flowbite we focus on markets where technology, innovation, and capital can unlock long-term value and drive economic growth.</p>
                 <a href="#" class="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-white rounded-lg bg-green-600 hover:bg-green-700 focus:ring-4 focus:ring-green-800">
@@ -14,7 +14,7 @@
                     Speak to Sales
                 </a> 
             </div>
-            <div class="hidden lg:mt-0 lg:col-span-5 lg:flex">
+            <div class="lg:mt-0 lg:col-span-5 lg:flex order-1 lg:order-2 flex justify-center">
                 <img src="/images/web-development-3465540-2928730.webp" alt="Hero image">
             </div>                
         </div>
